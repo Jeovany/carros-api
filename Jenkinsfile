@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/midianet/carros-api.git'
+                git 'https://github.com/Jeovany/carros-api.git'
             }
         }
        stage('Build') {
